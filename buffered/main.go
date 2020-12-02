@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	messages := make(chan string, 2)
+	messages := make(chan string, 5)
 
 	messages <- "Golang"
 	messages <- "for the win"
